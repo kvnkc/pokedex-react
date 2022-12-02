@@ -1,3 +1,4 @@
+import "./Pokedex.css";
 import Pokecard from "./Pokecard";
 
 const Pokedex = () => {
@@ -25,7 +26,7 @@ const Pokedex = () => {
     );
   });
 
-  return <div>{renderPokemon}</div>;
+  return <div className="pokedex-cards">{renderPokemon}</div>;
 };
 
 export default Pokedex;
